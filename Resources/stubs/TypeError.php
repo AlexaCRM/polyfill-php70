@@ -1,5 +1,6 @@
 <?php
 
-class TypeError extends Error
-{
+if ( !class_exists( 'TypeError' ) ) {
+    class TypeError extends Error {
+    }
 }

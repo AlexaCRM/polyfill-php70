@@ -1,5 +1,6 @@
 <?php
 
-class DivisionByZeroError extends Error
-{
+if ( !class_exists( 'DivisionByZeroError' ) ) {
+    class DivisionByZeroError extends Error {
+    }
 }

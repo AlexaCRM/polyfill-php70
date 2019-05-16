@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Polyfill\Php70;
+namespace AlexaCRM\Polyfill\Php70;
 
 /**
  * @author Nicolas Grekas <p@tchwork.com>
